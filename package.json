@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/meontechno/dkart-electron-test-app"
+    "url" : "https://github.com/radhasai1995/auto-update-Dummy"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
