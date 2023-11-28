@@ -1,0 +1,36 @@
+{
+  "name": "radhakrishna6688",
+  "version": "1.0.5",
+  "description": "Electron updater",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/meontechno/dkart-electron-test-app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --linux --publish never",
+    "deploy": "electron-builder build --linux --publish always"
+  },
+  "author": "RadhaKrishna Dodla",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.4"
+  },
+  "build": {
+    "appId": "com.janez.electron-quick-start",
+    "linux": {
+      "target": [
+        "deb",
+        "snap",
+        "rpm"
+      ],
+      "category": "Utility"
+    }
+  }
+}
