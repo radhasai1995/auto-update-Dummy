@@ -1,6 +1,6 @@
 {
   "name": "radhakrishna6688",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "Electron updater",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,10 @@
     "build": "electron-builder build --linux --publish never",
     "deploy": "electron-builder build --linux --publish always"
   },
-  "author": "RadhaKrishna Dodla",
+  "author": {
+    "name": "RadhaKrishna Dodla",
+    "email": "radhak7674@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "electron": "^27.0.0",
